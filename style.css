@@ -1,0 +1,33 @@
+a:link {
+    text-decoration: none;
+    color: #003366;
+  }
+a:hover {
+  color:brown
+}
+
+.TOR{
+  width: 3%;
+  height: 3%;
+}
+
+#buletin{
+  background-color: #1a8cff;
+}
+
+#horario{
+  background-color: #1a8cff;
+}
+
+#footing{
+  background-color: #1a8cff;
+}
+
+@media (max-width: 768px) { 
+  
+  .TOR{
+    width: 10%;
+    height: 10%;
+  }
+  
+}
