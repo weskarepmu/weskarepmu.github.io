@@ -1,33 +1,41 @@
-a:link {
-    text-decoration: none;
-    color: #003366;
-  }
+a {
+  text-decoration: none;
+  color: goldenrod;
+}
+
 a:hover {
-  color:brown
+  color:darkslategray;
 }
 
 .TOR{
   width: 3%;
   height: 3%;
+  margin-right: 10px;
 }
 
-#buletin{
+.list-group-item{
+  background: transparent;
+}
+
+.bi-arrow-up-circle{
+  color: darkslategrey;
+}
+
+#buletin, #footing, #horario{
   background-color: #1a8cff;
 }
 
-#horario{
-  background-color: #1a8cff;
-}
-
-#footing{
-  background-color: #1a8cff;
-}
-
-@media (max-width: 768px) { 
-  
+@media (max-width: 768px) {
   .TOR{
     width: 10%;
     height: 10%;
   }
-  
+  .map{
+    width: 100%;
+    height: 100%;
+  }
+  .calendar{
+    width: 110%;
+    height: 140%;
+  }
 }
